@@ -20,38 +20,48 @@
 
 ## 👩‍💻 About Me
 
-Cybersecurity student focused on **defensive security** and **blue team operations**. I built this portfolio to demonstrate hands-on SOC investigations, structured reporting, and technical analysis through real-world styled case studies.
+Cybersecurity student focused on **Blue Team operations**, **SOC analysis**, and **incident response**.
+
+I completed the SOC Analyst path on LetsDefend and applied my knowledge by building this portfolio in parallel, simulating **real-world SOC investigations** using structured methodologies and tools like **Splunk**.
 
 ---
 
-## 🚨 Investigations
+## 🚨 SOC Investigations
 
 ### 🔎 Incident Response
 
-| Case | Key Techniques |
-|------|---------------|
-| 🗄️ SQL Injection SIEM Alert | Alert triage · Log correlation · DB forensics |
-| 🌐 Cross-Site Scripting (XSS) Analysis | DOM analysis · Payload identification · Impact assessment |
-| 🔐 IDOR Access Control Investigation | Auth bypass · Access log analysis · Business logic flaws |
-| 🎣 Multi-layer Phishing Investigation | Header analysis · IOC extraction · Kill chain mapping |
-| 🔗 Phishing URL Analysis | URL defang · VirusTotal · OSINT enrichment |
+| Case | Key Techniques | Investigation Highlights |
+|------|--------------|-------------------------|
+| 🗄️ SQL Injection SIEM Alert | Splunk queries · Log correlation | Investigated suspicious database queries using SIEM, identified injection patterns and confirmed exploitation |
+| 🌐 Cross-Site Scripting (XSS) | Payload analysis · DOM tracing | Analyzed malicious scripts, traced execution, and assessed client-side impact |
+| 🔐 IDOR Investigation | Access log analysis | Identified unauthorized access to resources and confirmed broken access control |
+| 🎣 Phishing Investigation | Header analysis · IOC extraction | Extracted sender IP, analyzed headers, mapped attack chain, identified malicious infrastructure |
+| 🔗 Phishing URL Analysis | OSINT · Threat intel | Enriched malicious URLs using VirusTotal and classified indicators |
+
+---
 
 ### 🦠 Malware Analysis
 
-| Case | Approach |
-|------|----------|
-| 🛠️ Static Analysis – Trojan Sample | PE inspection · String extraction · Signature matching |
-| 🐛 Dynamic Analysis – Worm Behavior Study | Sandbox execution · Network capture · Behavioral profiling |
+| Case | Techniques | Key Findings |
+|------|-----------|-------------|
+| 🛠️ Trojan (Static Analysis) | PE analysis · Strings extraction | Identified suspicious imports, extracted indicators, analyzed file structure |
+| 🐛 Worm (Dynamic Analysis) | Sandbox · Network monitoring | Observed propagation behavior, detected network activity, analyzed runtime behavior |
+
+---
 
 <details>
-<summary><b>📋 Every report includes</b></summary>
+<summary><b>📋 SOC Investigation Workflow</b></summary>
 <br/>
 
-- **Executive Summary** — non-technical overview for stakeholders
-- **Technical Investigation** — step-by-step analysis walkthrough
-- **Evidence & Log Analysis** — annotated artifacts and findings
-- **MITRE ATT&CK Mapping** — TTP identification and tagging
-- **Remediation Recommendations** — actionable defensive guidance
+Each investigation follows a structured process:
+
+1. **Alert Detection (SIEM / Scenario)**
+2. **Triage & Prioritization**
+3. **Log Analysis (Splunk / System Logs)**
+4. **Threat Investigation**
+5. **MITRE ATT&CK Mapping**
+6. **Impact Assessment**
+7. **Remediation Recommendations**
 
 </details>
 
@@ -63,28 +73,29 @@ Cybersecurity student focused on **defensive security** and **blue team operatio
 <tr>
 <td valign="top" width="50%">
 
-**🔍 Operations**
-- Alert Triage & Escalation
-- Log Correlation & Analysis
-- Threat Hunting Techniques
+**🔍 SOC Operations**
+- Alert Triage & Escalation  
+- Log Analysis (Splunk)  
+- Event Correlation  
+- IOC Investigation  
 
 **🦠 Malware Analysis**
-- Static Analysis
-- Dynamic Analysis
-- Sandbox Investigation
+- Static Analysis  
+- Dynamic Analysis  
+- Behavioral Analysis  
 
 </td>
 <td valign="top" width="50%">
 
-**🌐 Web Application Security**
-- SQL Injection (SQLi)
-- Cross-Site Scripting (XSS)
-- IDOR / Broken Access Control
+**🌐 Web Security**
+- SQL Injection (SQLi)  
+- Cross-Site Scripting (XSS)  
+- IDOR / Broken Access Control  
 
-**📋 Reporting & Frameworks**
-- MITRE ATT&CK Mapping
-- Professional Incident Reporting
-- Evidence Documentation
+**📊 Reporting & Frameworks**
+- MITRE ATT&CK Mapping  
+- Incident Reporting  
+- Evidence Documentation  
 
 </td>
 </tr>
@@ -92,26 +103,44 @@ Cybersecurity student focused on **defensive security** and **blue team operatio
 
 ---
 
-## 🧰 Tools & Frameworks
+## 🧰 Tools & Technologies
 
-![SIEM](https://img.shields.io/badge/SIEM-Platforms-2d3748?style=for-the-badge&logo=datadog&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-SIEM%20Analysis-black?style=for-the-badge&logo=splunk&logoColor=white)
+![SIEM](https://img.shields.io/badge/SIEM-Log%20Correlation-2d3748?style=for-the-badge)
 ![Wireshark](https://img.shields.io/badge/Wireshark-Network%20Analysis-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Sysmon](https://img.shields.io/badge/Sysmon-Endpoint%20Monitoring-5C2D91?style=for-the-badge)
 ![VirusTotal](https://img.shields.io/badge/VirusTotal-Threat%20Intel-394EFF?style=for-the-badge&logo=virustotal&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows%20Event%20Viewer-Log%20Analysis-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows%20Logs-Event%20Analysis-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![MITRE](https://img.shields.io/badge/MITRE%20ATT%26CK-Framework-red?style=for-the-badge)
-![Sandbox](https://img.shields.io/badge/Sandbox-Dynamic%20Analysis-orange?style=for-the-badge)
+
+---
+
+## 🧠 What This Portfolio Demonstrates
+
+- Hands-on experience with **SIEM (Splunk) investigations**  
+- Ability to analyze **realistic attack scenarios**  
+- Understanding of **web vulnerabilities & exploitation techniques**  
+- Practical **malware behavior analysis**  
+- Professional **SOC-level reporting & documentation**  
 
 ---
 
 ## 🔄 Continuous Development
 
-> This portfolio is continuously evolving. New investigations and technical reports are added regularly as I expand my hands-on experience and security knowledge. The content grows with my skills and learning journey.
+This portfolio is continuously evolving as I:
+- Add new SOC scenarios  
+- Improve investigation depth  
+- Expand SIEM and detection skills  
+- Simulate more advanced attack techniques  
 
 ---
 
 ## 🎯 Career Objective
 
-Seeking a **SOC Analyst / Blue Team** role where I can contribute to **threat detection**, **incident response**, and **defensive security operations**.
+Seeking a **SOC Analyst / Blue Team role** to apply my skills in:
+- Threat detection  
+- Incident response  
+- Security monitoring  
 
 ---
 
