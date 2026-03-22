@@ -22,7 +22,7 @@
 
 Cybersecurity student focused on **Blue Team operations**, **SOC analysis**, and **incident response**.
 
-I completed the SOC Analyst path on LetsDefend and applied my knowledge by building this portfolio in parallel, simulating **real-world SOC investigations** using structured methodologies and tools like **Splunk**.
+I completed the SOC Analyst path on LetsDefend and built this portfolio in parallel to apply my knowledge through **hands-on investigations** using tools like **Splunk**.
 
 ---
 
@@ -32,11 +32,12 @@ I completed the SOC Analyst path on LetsDefend and applied my knowledge by build
 
 | Case | Key Techniques | Investigation Highlights |
 |------|--------------|-------------------------|
-| 🗄️ SQL Injection SIEM Alert | Splunk queries · Log correlation | Investigated suspicious database queries using SIEM, identified injection patterns and confirmed exploitation |
-| 🌐 Cross-Site Scripting (XSS) | Payload analysis · DOM tracing | Analyzed malicious scripts, traced execution, and assessed client-side impact |
-| 🔐 IDOR Investigation | Access log analysis | Identified unauthorized access to resources and confirmed broken access control |
-| 🎣 Phishing Investigation | Header analysis · IOC extraction | Extracted sender IP, analyzed headers, mapped attack chain, identified malicious infrastructure |
-| 🔗 Phishing URL Analysis | OSINT · Threat intel | Enriched malicious URLs using VirusTotal and classified indicators |
+| 🗄️ SQL Injection SIEM Alert | Splunk · Log correlation | Detected injection patterns through SIEM logs and confirmed exploitation |
+| 🌐 Cross-Site Scripting (XSS) | Payload analysis · DOM tracing | Analyzed malicious scripts and evaluated client-side impact |
+| 🔐 IDOR Investigation | Access log analysis | Identified unauthorized access and broken authorization |
+| 🎣 Phishing Investigation | Email analysis · Header analysis · IOC extraction | Analyzed email headers, extracted sender IP, identified phishing infrastructure |
+| 📧 Suspicious Email Analysis | Email header analysis · OSINT | Investigated email authenticity, traced origin, identified indicators |
+| 🔗 Phishing URL Analysis | OSINT · Threat intel | Enriched and classified malicious URLs using threat intelligence |
 
 ---
 
@@ -44,8 +45,16 @@ I completed the SOC Analyst path on LetsDefend and applied my knowledge by build
 
 | Case | Techniques | Key Findings |
 |------|-----------|-------------|
-| 🛠️ Trojan (Static Analysis) | PE analysis · Strings extraction | Identified suspicious imports, extracted indicators, analyzed file structure |
-| 🐛 Worm (Dynamic Analysis) | Sandbox · Network monitoring | Observed propagation behavior, detected network activity, analyzed runtime behavior |
+| 🛠️ Trojan (Static Analysis) | PE analysis · Strings extraction | Identified suspicious imports and extracted indicators |
+| 🐛 Worm (Dynamic Analysis) | Sandbox · Network monitoring | Observed propagation and network behavior |
+
+---
+
+### 📊 SIEM & Network Analysis
+
+| Case | Tools | Highlights |
+|------|------|-----------|
+| 🛰️ Corelight CTF Investigation | Splunk · Network logs | Analyzed network traffic, correlated events, and documented full investigation workflow |
 
 ---
 
@@ -53,15 +62,13 @@ I completed the SOC Analyst path on LetsDefend and applied my knowledge by build
 <summary><b>📋 SOC Investigation Workflow</b></summary>
 <br/>
 
-Each investigation follows a structured process:
-
-1. **Alert Detection (SIEM / Scenario)**
-2. **Triage & Prioritization**
-3. **Log Analysis (Splunk / System Logs)**
-4. **Threat Investigation**
-5. **MITRE ATT&CK Mapping**
-6. **Impact Assessment**
-7. **Remediation Recommendations**
+1. Alert Detection (SIEM / Scenario)  
+2. Triage & Prioritization  
+3. Log Analysis (Splunk / Email / System Logs)  
+4. Threat Investigation  
+5. MITRE ATT&CK Mapping  
+6. Impact Assessment  
+7. Remediation  
 
 </details>
 
@@ -79,10 +86,14 @@ Each investigation follows a structured process:
 - Event Correlation  
 - IOC Investigation  
 
+**📧 Email Security**
+- Email Header Analysis  
+- Phishing Detection  
+- IOC Extraction  
+
 **🦠 Malware Analysis**
 - Static Analysis  
 - Dynamic Analysis  
-- Behavioral Analysis  
 
 </td>
 <td valign="top" width="50%">
@@ -90,10 +101,10 @@ Each investigation follows a structured process:
 **🌐 Web Security**
 - SQL Injection (SQLi)  
 - Cross-Site Scripting (XSS)  
-- IDOR / Broken Access Control  
+- IDOR  
 
 **📊 Reporting & Frameworks**
-- MITRE ATT&CK Mapping  
+- MITRE ATT&CK  
 - Incident Reporting  
 - Evidence Documentation  
 
@@ -106,38 +117,22 @@ Each investigation follows a structured process:
 ## 🧰 Tools & Technologies
 
 ![Splunk](https://img.shields.io/badge/Splunk-SIEM%20Analysis-black?style=for-the-badge&logo=splunk&logoColor=white)
-![SIEM](https://img.shields.io/badge/SIEM-Log%20Correlation-2d3748?style=for-the-badge)
 ![Wireshark](https://img.shields.io/badge/Wireshark-Network%20Analysis-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Sysmon](https://img.shields.io/badge/Sysmon-Endpoint%20Monitoring-5C2D91?style=for-the-badge)
 ![VirusTotal](https://img.shields.io/badge/VirusTotal-Threat%20Intel-394EFF?style=for-the-badge&logo=virustotal&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows%20Logs-Event%20Analysis-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![MITRE](https://img.shields.io/badge/MITRE%20ATT%26CK-Framework-red?style=for-the-badge)
-
----
-
-## 🧠 What This Portfolio Demonstrates
-
-- Hands-on experience with **SIEM (Splunk) investigations**  
-- Ability to analyze **realistic attack scenarios**  
-- Understanding of **web vulnerabilities & exploitation techniques**  
-- Practical **malware behavior analysis**  
-- Professional **SOC-level reporting & documentation**  
 
 ---
 
 ## 🔄 Continuous Development
 
-This portfolio is continuously evolving as I:
-- Add new SOC scenarios  
-- Improve investigation depth  
-- Expand SIEM and detection skills  
-- Simulate more advanced attack techniques  
+This portfolio is continuously evolving with new investigations and deeper analysis.
 
 ---
 
 ## 🎯 Career Objective
 
-Seeking a **SOC Analyst / Blue Team role** to apply my skills in:
+Seeking a **SOC Analyst / Blue Team role** focused on:
 - Threat detection  
 - Incident response  
 - Security monitoring  
